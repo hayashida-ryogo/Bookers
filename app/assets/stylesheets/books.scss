@@ -1,3 +1,55 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+table {
+  display: table;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  padding-bottom: 5px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+td {
+  padding: 0 5px 7px 5px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weoght: bold;
+}
+
+.create-form {
+  display: block;
+  margin-top: 0em;
+}
+
+.action {
+  display: block;
+}
